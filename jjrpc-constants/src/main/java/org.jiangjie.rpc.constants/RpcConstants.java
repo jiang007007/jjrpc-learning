@@ -18,9 +18,14 @@ package org.jiangjie.rpc.constants;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 
 /**
- *  常量类
+ * 常量类
  */
 public class RpcConstants implements ImportBeanDefinitionRegistrar {
+
+    /**
+     * 消息头部.固定32位
+     */
+    public static final int HEADER_TOTAL_LEN = 32;
 
     /**
      * 版本号
@@ -396,4 +401,14 @@ public class RpcConstants implements ImportBeanDefinitionRegistrar {
      * 失败
      */
     public static final int FUSING_WAIT_STATUS_FAILED = 3;
+
+    /**
+     * 魔法值
+     */
+    public static final short MAGIC = 0x10;
+
+    /**
+     * 约定序列化类型最大长度16
+     */
+    public static final int NAX_SERIALIZATION_TYPE_COUNR = 16;
 }

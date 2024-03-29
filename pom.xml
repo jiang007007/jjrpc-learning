@@ -10,9 +10,19 @@
     <modules>
         <module>jjrpc-annotation</module>
         <module>jjrpc-constants</module>
+        <module>jjrpc-provider</module>
+        <module>jjrpc-protocol</module>
+        <module>jjrpc-reflect</module>
+        <module>jjrpc-reflect</module>
+        <module>jjrpc-cache</module>
+        <module>jjrpc-threadpool</module>
+        <module>jjrpc-connection</module>
+        <module>jjrpc-codec</module>
+        <module>jjrpc-serialization</module>
+        <module>jjrpc-common</module>
+        <module>jjrpc-loadbalancer</module>
     </modules>
     <version>1.0.0-SNAPSHOT</version>
-
     <properties>
         <string.version>5.2.20.RELEASE</string.version>
         <junit.version>4.12</junit.version>

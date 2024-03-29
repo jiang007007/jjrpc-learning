@@ -1,0 +1,16 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.jiangjie.rpc</groupId>
+        <artifactId>jjrpc-learning</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>jjrpc-protocol</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>io.jiangjie.rpc</groupId>
+            <artifactId>jjrpc-constants</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
